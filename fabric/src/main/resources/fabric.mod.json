@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "heatwave",
+  "version": "${version}",
+
+  "name": "HeatWave",
+  "description": "a fashaodeshao's mod",
+  "authors": [],
+  "contact": {},
+
+  "license": "All Rights Reserved",
+  "icon": "icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.fashaodeshao.mods.heatwave.fabric.HeatWaveFabric"
+    ]
+  },
+  "mixins": [
+    "heatwave.mixins.json",
+    "heatwave-common.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": ">=1.18"
+  }
+}
